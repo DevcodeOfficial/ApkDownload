@@ -8,7 +8,7 @@ setuptools.setup(
     name="apkdownload",
  
     #version of the module
-    version="0.0.6",
+    version="0.0.7",
  
     #Name of Author
     author="Ayan Ansari",
@@ -26,7 +26,11 @@ setuptools.setup(
  
     #Any link to reach this module, if you have any webpage or github profile
     url="https://Github.com/DevcodeOfficial/ApkDownload",
+    
+    download_url="https://github.com/DevCodeOfficial/apkdownload/releases/latest",
+    
     install_requires = ["requests", "bs4"],
+    
     packages=setuptools.find_packages(),
  
     #classifiers like program is suitable for python3, just leave as it is.
