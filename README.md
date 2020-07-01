@@ -1,6 +1,6 @@
 # ApkDownloader 
 
-You Can Easily Download Apk Files Using This Api
+You Can Easily Download Apk Files Using This API
 
 ## installing
 
@@ -16,18 +16,18 @@ import apkdownload as apk
 apk.dl('App Name', 'Directory')
 ```
 
-## example
+### Example
 
 ```python
 import apkdownload as apk
 
-apk.dl('Cpu-z', '/sdcard/download)
+apk.dl('Cpu-z', '/sdcard/download')
 ```
 
-## example
+### Example
 
 ```python
 import apkdownload as apk
 
-apk.dl('Subway Surf', '/Desktop)
+apk.dl('Subway Surf', '/Desktop')
 ```
